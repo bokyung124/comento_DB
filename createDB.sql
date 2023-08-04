@@ -27,10 +27,10 @@ create table product (
 );
 
 insert into product
-values  ('pd01', 'sh1', 10000, 'pretty t-shirt', blob),
-        ('pd02', 'sk1', 30000, 'cargo skirt', blob),
-        ('pd03', 'dr1', 59000, 'floral dress', blob),
-        ('pd04', 'tr1', 50000, 'training set', blob);
+values  ('pd01', 'sh1', 10000, 'pretty t-shirt', '', 'ct01'),
+        ('pd02', 'sk1', 30000, 'cargo skirt', '', 'ct04'),
+        ('pd03', 'dr1', 59000, 'floral dress', '', 'ct04'),
+        ('pd04', 'tr1', 50000, 'training set', '', 'ct06');
 
 -- 고객
 
@@ -79,7 +79,10 @@ create table purchase (
 insert into purchase
 values  ('pc01', now() ,'cs01', 'pd02'),
         ('pc02', now(), 'cs02', 'pd01'),
-        ('pc03', now(), 'cs03', 'pd03');
+        ('pc03', now(), 'cs03', 'pd03'),
+        ('pc04', now(), 'cs02', 'pd04'),
+	    ('pc05', now(), 'cs04', 'pd03'),
+	    ('pc06', now(), 'cs03', 'pd03');
 
 -- 장바구니
 
