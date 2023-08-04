@@ -22,7 +22,7 @@ delimiter ;
 
 <img width="457" alt="스크린샷 2023-08-04 오후 2 03 52" src="https://github.com/bokyung124/comento_DB/assets/53086873/68f0ea8b-f841-4e8e-8068-c5894be74c97">
 
-<br>
+</br>
 
 2. 휴대폰 데이터 형식 이상데이터 검출 프로시저
 
